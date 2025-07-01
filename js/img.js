@@ -1,9 +1,10 @@
-const imgEl = document.querySelector(".hero__image"); - це як доспуть до зображення, розуміння  з яким обєктом будемо взаїмодіяти
+const imgEl = document.querySelector(".hero__image"); - це як доступ до зображення, розуміння  з яким обєктом будемо взаїмодіяти
 
 console.log(imgEl.src); - так можна звернутись до зображення, саме за її посиланням
 
 
-imgEl.src = "https://images.pexels.com/photos/1870376/pexels-photo-1870376.jpeg"; - - тут ми взяли атрибут imgEl.src і додали інше посилання, в консолі видасть нове задане посилання
+imgEl.src = "https://images.pexels.com/photos/1870376/pexels-photo-1870376.jpeg"; - - тут ми взяли атрибут imgEl.src і додали 
+інше посилання, в консолі видасть нове задане посилання
 
 
 imgEl.alt = "new cat"; - тут ми змінили на new cat , в консолі вже видає new cat
@@ -11,7 +12,7 @@ console.log(imgEl.alt); - тут вида саме що є в html
 
 const heroTitle = document.querySelector(".hero__title"); - щоб працювати з заголовком зображення
 
-console.log(heroTitle.textContent);  textContent - дає можливість витягти текст з елеменьу
+console.log(heroTitle.textContent);  textContent - дає можливість витягти текст з елементу
 
 heroTitle.textContent = "Title lalala"; - таким чином можна змінити заголовок , текст
 
